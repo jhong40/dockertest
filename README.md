@@ -6,7 +6,7 @@ Reference   https://blog.no42.org/code/docker-java-signals-pid1/
 * `docker run test`
 * open another terminal
   * `docker ps` # get the container id 
-  * `docker exec -it {containerid} bash` # check the pid
+  * `docker exec -it {containerid} bash` # `ps -ef` check the pid
   * `docker stop {containerid} # confirm
   
   
