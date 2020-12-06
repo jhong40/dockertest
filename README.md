@@ -1,4 +1,4 @@
-### Test exec to see if Java process becomes PID 1
+### Test exec to see if Java process becomes PID 1. It works.
 Reference   https://blog.no42.org/code/docker-java-signals-pid1/
 
 * clone this repo (or copy all the files) to local
