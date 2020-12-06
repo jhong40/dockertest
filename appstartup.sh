@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
 echo "appstartup.sh starts..."
-. /libertystartup.sh 
+source /libertystartup.sh 

@@ -22,7 +22,7 @@ public class Main {
 
     private static void handleSignal(String name) {
         Signal signal = new Signal(name);
-        Signal.handle(signal, Signal - > {
+        Signal.handle(signal, Signal -> {
             System.out.println("Signal received: " + signal.getName());
             if ("TERM".equals(signal.getName())) {
                 shutdown();
