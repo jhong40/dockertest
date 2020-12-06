@@ -2,8 +2,8 @@
 Reference   https://blog.no42.org/code/docker-java-signals-pid1/
 
 * clone this repo (or copy all the files) to local
-* if need to change the java, please install jdk8 `apt install -y openjdk-8-jdk`, `javac Main.java`
-* `docker build -t test .`
+* if need to modify Main.java, please install jdk8 `apt install -y openjdk-8-jdk`, `javac Main.java`
+* `docker build -t test .`  
 * `docker run test`
 * open another terminal
   * `docker ps` # get the container id 
